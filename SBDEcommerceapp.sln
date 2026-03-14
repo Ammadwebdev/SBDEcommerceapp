@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBDEcommerceapp", "SBDEcommerceapp\SBDEcommerceapp.csproj", "{00FB29F9-6B4F-4833-BEEB-1E33EF6979EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00FB29F9-6B4F-4833-BEEB-1E33EF6979EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FB29F9-6B4F-4833-BEEB-1E33EF6979EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FB29F9-6B4F-4833-BEEB-1E33EF6979EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FB29F9-6B4F-4833-BEEB-1E33EF6979EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {446A742D-FF85-4509-8F93-A415E7649BA2}
+	EndGlobalSection
+EndGlobal
