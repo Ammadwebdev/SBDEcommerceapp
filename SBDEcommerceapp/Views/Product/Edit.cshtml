@@ -1,0 +1,55 @@
+﻿@model Product
+
+<form asp-action="Edit" asp-controller="Product" method="post">
+    @Html.AntiForgeryToken()
+    <input asp-for="Id" type="hidden" />
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="mb-3">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="SKU"></label>
+        <input asp-for="SKU" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Author"></label>
+        <input asp-for="Author" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="ListPrice"></label>
+        <input asp-for="ListPrice" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price50"></label>
+        <input asp-for="Price50" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Price100"></label>
+        <input asp-for="Price100" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary">Back</a>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
